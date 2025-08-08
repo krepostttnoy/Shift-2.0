@@ -21,10 +21,11 @@
 
 ## Установка
 Клонировать репозиторий:
-```bash
 git clone https://github.com/your-username/Shift-2.0.git
 cd Shift-2.0
-Сборка
+
+
+## Сборка
 
 ./gradlew clean jar
 После сборки готовый JAR-файл появится в build/libs/.
@@ -44,7 +45,7 @@ java -jar build/libs/Shift-2.0-1.0-SNAPSHOT.jar -s -a -p sample- 1.txt 2.txt
 
 ## Пример работы
 
-Входные файлы:
+**Входные файлы:**
 
 3.1415
 consectetur adipiscing
@@ -53,10 +54,11 @@ consectetur adipiscing
 100500
 Нормальная форма числа с плавающей запятой
 1.528535047E-25
-Запуск:
+**Запуск:**
 
 java -jar build/libs/Shift-2.0-1.0-SNAPSHOT.jar -f input.txt
-Вывод:
+
+**Вывод:**
 
 Статистика для целых чисел:
 Количество: 1, Минимум: 100500.0, Максимум: 100500.0, Сумма: 100500.0, Среднее: 100500.0
