@@ -6,7 +6,6 @@
 
 ## Содержание
 - [Требования](#требования)
-- [Установка](#установка)
 - [Сборка](#сборка)
 - [Запуск](#запуск)
 - [Флажки командной строки](#флажки-командной-строки)
@@ -19,23 +18,19 @@
 
 ---
 
-## Установка
-Клонировать репозиторий:
-git clone https://github.com/your-username/Shift-2.0.git
-cd Shift-2.0
-
-
 ## Сборка
 
-./gradlew clean jar
+```./gradlew clean jar```
 После сборки готовый JAR-файл появится в build/libs/.
 
 ## Запуск
 
 Пример запуска:
 
-java -jar build/libs/Shift-2.0-1.0-SNAPSHOT.jar -s -a -p sample- 1.txt 2.txt
-Флажки командной строки
+```java -jar build/libs/Shift-2.0-1.0-SNAPSHOT.jar -s -a -p sample- 1.txt 2.txt```
+
+
+## Флажки командной строки
 
 -o /some/path   — Задать путь для сохранения выходных файлов
 -p smth         — Префикс имен выходных файлов
@@ -54,9 +49,10 @@ consectetur adipiscing
 100500
 Нормальная форма числа с плавающей запятой
 1.528535047E-25
+
 **Запуск:**
 
-java -jar build/libs/Shift-2.0-1.0-SNAPSHOT.jar -f input.txt
+```java -jar build/libs/Shift-2.0-1.0-SNAPSHOT.jar -f input.txt```
 
 **Вывод:**
 
